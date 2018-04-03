@@ -1,0 +1,15 @@
+﻿<Window x:Class="SerializationTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SerializationTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnSerializeElement" Content="Serialize Element" HorizontalAlignment="Left" Margin="78,165,0,0" VerticalAlignment="Top" Width="114" Click="btnSerializeElement_Click"/>
+        <Button x:Name="btnSerializeNode" Content="Serialize Node" HorizontalAlignment="Left" Margin="247,165,0,0" VerticalAlignment="Top" Width="106"/>
+        <Button x:Name="btnSerializeDataSet" Content="Serialize DataSet" HorizontalAlignment="Left" Margin="381,165,0,0" VerticalAlignment="Top" Width="117" Click="btnSerializeDataSet_Click"/>
+
+    </Grid>
+</Window>
